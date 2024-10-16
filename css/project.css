@@ -6,3 +6,10 @@
     list-style-type: disc;
 }
 
+@media(max-width: 630px) {
+    h2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 21px;
+    }
+}
