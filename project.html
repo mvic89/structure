@@ -5,6 +5,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/project.css">
 <body>
 <!--Navbar-->
     <div class="navbar">
@@ -13,7 +14,7 @@
                     <a href="index.html"><img src="./img/git_guide_logotype.png" alt="logotype"></a>
                 </item>
                 <ul>
-                    <li><a href="#">Projects</a></li>
+                    <li><a href="project.html">Projects</a></li>
                     <li><a href="#">Changes</a></li>
                     <li><a href="#">Branching</a></li>
                     <li><a href="#">About us</a></li>
@@ -21,41 +22,51 @@
         </header>
     </div>
 
-    <main class="main">
+    <main class="main main2">
         <div class="container grid">
-            <h2>Why are remote repositories necessary?</h2>
-            <p>The remote repository is cloud based and helps you to store your local files remotely. This helps you access files that aren't already in your computer locally. Other collaborators can also access files by cloning the repositories.</p>
-            <br>
-            <h2>How to create a project locally:</h2>
-            <ul>
-                <li>Create a project and turn it into a git project by typing: git init</li>
-                <li>This will create a hidden directory called .git that enables communication with GitHub.</li>
-                <li>Once the local project is created, go and create repo for it in Github.</li>
-            </ul>
-            <br>
-            <h2>How to create a GitHub repository:</h2>
-            <ul>
-                <li>Sign in/up to create an account</li>
-                <li>Create a new repository by clicking the upper right + button</li>
-                <li>Name your repo, add a description and make it public</li>
-                <li>Once the GitHub repo is created, you need to connect you local code to the repo.</li>
-            </ul>
-            <br>
-            <h2>How to link local and remote repositories:</h2>
-            <ul>
-                <li>Type in:  git remote add origin git@github.com:your-account/repo/.git (Connects your local code to the GitHub repo)</li>
-                <li>Then type: git branch -M main (Renames the current branch to 'main')</li>
-                <li>git push -u origin main (This pushes the local code to the remote repo)</li>
-            </ul>
-            <br>
-            <h2>How other people can contribute to the project:</h2>
-            <ul>
-                <li>They contribute by cloning the project into their local machine.</li>
-                <li>Each project has an endpoint URL that holds the files and directories of the project.</li>
-                <li>In the home page of the repo, look for the green button and copy the SSH code in the tab.</li>
-                <li>Type in: git clone (project-URL) to make a local copy of the project.</li>
-                <li>Now the collaborators can start to add code into the project.</li>
-            </ul>
+            <div>
+                <h2>Why are remote repositories necessary?</h2>
+                <p>The remote repository is cloud based and helps you to store your local files remotely. This helps you access files that aren't already in your computer locally. Other collaborators can also access files by cloning the repositories.</p>
+            </div>
+            <div></div>
+            <div>
+                <h2>How to create a project locally:</h2>
+                <ul class="ul-dots">
+                    <li>Create a project and turn it into a git project by typing: git init</li>
+                    <li>This will create a hidden directory called .git that enables communication with GitHub.</li>
+                    <li>Once the local project is created, go and create repo for it in Github.</li>
+                </ul>
+            </div>
+            <div></div>
+            <div>
+                <h2>How to create a GitHub repository:</h2>
+                <ul class="ul-dots">
+                    <li>Sign in/up to create an account</li>
+                    <li>Create a new repository by clicking the upper right + button</li>
+                    <li>Name your repo, add a description and make it public</li>
+                    <li>Once the GitHub repo is created, you need to connect you local code to the repo.</li>
+                </ul>
+            </div>
+            <div></div>
+            <div>
+                <h2>How to link local and remote repositories:</h2>
+                <ul class="ul-dots">
+                    <li>Type in:  git remote add origin git@github.com:your-account/repo/.git (Connects your local code to the GitHub repo)</li>
+                    <li>Then type: git branch -M main (Renames the current branch to 'main')</li>
+                    <li>git push -u origin main (This pushes the local code to the remote repo)</li>
+                </ul>
+            </div>
+            <div></div>
+            <div>
+                <h2>How other people can contribute to the project:</h2>
+                <ul class="ul-dots">
+                    <li>They contribute by cloning the project into their local machine.</li>
+                    <li>Each project has an endpoint URL that holds the files and directories of the project.</li>
+                    <li>In the home page of the repo, look for the green button and copy the SSH code in the tab.</li>
+                    <li>Type in: git clone (project-URL) to make a local copy of the project.</li>
+                    <li>Now the collaborators can start to add code into the project.</li>
+                </ul>
+            </div>
         </div>
     </main>
 
