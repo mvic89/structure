@@ -77,7 +77,6 @@ a {
 footer {
     background-color: white;
     height: auto;
-    /*width: 100vw;*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 40px;
     color: white;
@@ -93,7 +92,6 @@ footer {
 
 .footer-bottom {
     background: white;
-    /*width: 100vw;*/
     padding-top: 0;
     padding-bottom: 20px;
     text-align: center;
@@ -105,4 +103,31 @@ footer {
     word-spacing: 2px;
     text-transform: capitalize;
     margin-top: 10px;
+}
+
+@media(max-width: 630px)  {
+    .navbar {
+        height: 210px;
+    }
+
+    .navbar img {
+        height: 75px;
+        margin-top: 30px;
+    }
+
+    .navbar .flex {
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        padding: 10px;
+        border: 1px solid #333;
+        font-size: 8px;
+        margin-bottom: 40px;
+    }
+
+    .navbar nav {
+        margin-bottom: 50px;
+    }
+
 }
